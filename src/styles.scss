@@ -1,17 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p {
+  color: white;
+}
 
 body {
+  background-color: black;
   margin: 0;
-  font-family: 'Nunito', 'sans-serif';
-  font-size: 18px;
+  font-family: 'Roboto', 'medium';
+  font-size: 16px;
+  text-align: center;
 
   a{
     color: white;
+    text-decoration: none;
   }
 
   span{
-    vertical-align: middle;
+    vertical-align: sub;
   }
 }
 
@@ -21,15 +28,15 @@ body {
 }
 
 header{
+  background-color: black;
   margin: 0;
-  font-family: 'Nunito', 'sans-serif';
-  font-size: 22px;
-  background-color: antiquewhite;
-  padding: 0.5em;
+  font-family: 'Roboto', medium;
+  font-size: 20px;
+  padding: 1em;
   text-align: center;
 
   a{
-    color: aqua;
+    color: white;
     text-decoration: none;
   }
 
@@ -41,37 +48,40 @@ header{
 .flex-container {
   display: flex;
   flex-direction: column;
-  flex-basis: auto;
-  width: 100%;
 }
 
 .flex-item-r {
-  background-color: aqua;
-  border: 1px solid black;
-  margin: 5px;
+  background-color: #FFAA00;
+  margin: 15px;
   min-height: auto;
+  height: 70px;
+  border-radius: 20px;
+  justify-content: center;
 }
 
 .flex-item-l{
-  background-color: blue;
-  border: 1px solid black;
-  margin: 5px;
-  flex-grow: 1;
+  background-color: #9CBE3F;
+  margin: 15px;
   min-height: auto;
+  height: 70px;
+  border-radius: 20px;
+  justify-content: center;
 }
 
 .flex-item-p{
-  background-color: brown;
-  border: 1px solid black;
-  margin: 5px;
-  flex-grow: 1;
+  background-color: #77B5E3;
+  margin: 15px;
   min-height: auto;
+  height: 70px;
+  border-radius: 20px;
+  justify-content: center;
 }
 
-.material-icons.md-48{
-  font-size: 48px;
+.material-icons.md-36{
+  font-size: 36px;
 }
 
 .material-icons.md-light{
   color: rgba(255, 255, 255, 1);
 }
+

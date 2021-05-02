@@ -5,10 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HomeComponent } from './home/home.component';
+import { PlanComponent } from './plan/plan.component';
+import { ListComponent } from './list/list.component';
+import { RecepieComponent } from './recepie/recepie.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    PlanComponent,
+    ListComponent,
+    RecepieComponent
   ],
   imports: [
     BrowserModule,
