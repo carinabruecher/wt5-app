@@ -24,24 +24,22 @@ body {
 
 .container{
   width: 100%;
-  margin: 0 auto;
 }
 
 header{
   background-color: black;
-  margin: 0;
   font-family: 'Roboto', medium;
   font-size: 20px;
-  padding: 1em;
   text-align: center;
 
   a{
     color: white;
     text-decoration: none;
-  }
+    object-position: center;
 
-  a.logo{
-    font-weight: bold;
+    img{
+      vertical-align: middle;
+    }
   }
 }
 
@@ -84,4 +82,5 @@ header{
 .material-icons.md-light{
   color: rgba(255, 255, 255, 1);
 }
+
 
