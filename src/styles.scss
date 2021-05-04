@@ -56,13 +56,16 @@ header{
 .flex-container {
   display: flex;
   flex-direction: column;
+  max-width: 414px;
+  margin: auto;
 }
 
 .flex-item-r {
   background-color: #FFAA00;
   margin: 15px;
+  padding: 20px 10px;
   min-height: auto;
-  height: 70px;
+  min-height: 70px;
   border-radius: 20px;
   justify-content: center;
 }
@@ -70,8 +73,9 @@ header{
 .flex-item-l{
   background-color: #9CBE3F;
   margin: 15px;
+  padding: 20px 10px;
   min-height: auto;
-  height: 70px;
+  min-height: 70px;
   border-radius: 20px;
   justify-content: center;
 }
@@ -79,18 +83,26 @@ header{
 .flex-item-p{
   background-color: #77B5E3;
   margin: 15px;
+  padding: 20px 10px;
   min-height: auto;
-  height: 70px;
+  min-height: 70px;
   border-radius: 20px;
   justify-content: center;
 }
 
 .material-icons.md-36{
-  font-size: 36px;
+  font-size: 50px;
 }
 
 .material-icons.md-light{
   color: rgba(255, 255, 255, 1);
+}
+
+
+@media only screen and (max-width: 415px) {
+  .material-icons.md-36{
+    font-size: 36px;
+  }
 }
 
 

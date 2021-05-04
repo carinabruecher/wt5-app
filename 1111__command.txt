@@ -1,0 +1,10 @@
+#
+ng build --prod
+
+
+#http server starten
+http-server -p 8080 -c-1 dist/wt5
+
+
+#
+ng serve
