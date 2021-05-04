@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 p {
   color: white;
@@ -8,7 +9,7 @@ p {
 body {
   background-color: black;
   margin: 0;
-  font-family: 'Roboto', 'medium';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   text-align: center;
 
@@ -28,7 +29,7 @@ body {
 
 header{
   background-color: black;
-  font-family: 'Roboto', medium;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-align: center;
 
@@ -40,6 +41,15 @@ header{
     img{
       width: 70%;
     }
+  }
+
+  h1{
+    color: #FFAA00;
+    font-family: 'Handlee', cursive;
+  }
+
+  p{
+    font-family: 'Handlee', cursive;
   }
 }
 
